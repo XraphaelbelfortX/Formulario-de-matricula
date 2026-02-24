@@ -2,7 +2,9 @@
     /* Font family and size */
     --font-family: 'Poppins', sans-serif;
     --text: 400 1rem/1.5 var(var(--font-family));
-    --text-sm: 400 0.875rem/1.4 var(var(--font-family))
+    --text-sm: 400 0.875rem/1.4 var(var(--font-family));
+    --font-secundary: 'Schoolbell', cursive;
+
 
 
     /* Text Colors */
@@ -29,4 +31,10 @@
     --semantic-error: #DC2626;
 
 
+}
+
+body {
+    overflow: hidden;
+    margin: 0;
+    box-sizing: border-box;
 }
