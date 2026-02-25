@@ -1,0 +1,8 @@
+form {
+    margin: 0;
+}
+
+.form-title {
+    display: flex;
+    position: relative;
+}

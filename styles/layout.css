@@ -15,6 +15,7 @@ aside {
     margin: 0;
     padding: 4rem;
     background-color: var(--surface-secondary);
+    height: 100vh;
 }
 .aside-container {
     display: flex;
