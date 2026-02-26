@@ -1,8 +1,17 @@
 form {
-    margin: 0;
+    margin-top: 3rem;
 }
 
-.form-title {
-    display: flex;
-    position: relative;
+fieldset {
+    border: none;
+    display: grid;
+    gap: 1.5rem;
+}
+
+legend {
+    font-family: var(--font-family);
+    font-weight: 600;
+    line-height: 125%;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
 }
