@@ -79,13 +79,13 @@
                                 <div class="input-wrapper flex-2">
                                     <label for="street">Rua</label>
                                     <input type="text" id="street" name="street"
-                                    value="Rua das Flores" disabled>
+                                    value="Av, Grande Oriente" disabled>
                                 </div>
 
                                 <div class="input-wrapper flex-1">
                                     <label for="number">Número</label>
                                     <input type="number" id="number" name="number"
-                                    value="123">
+                                    value="31">
                                 </div>
                             </div>
 
@@ -93,13 +93,63 @@
                                 <div class="input-wrapper flex-2">
                                     <label for="city">Cidade</label>
                                     <input type="text" id="city" name="city"
-                                    value="São Paulo" disabled>
+                                    value="São Luis" disabled>
                                 </div>
 
                                 <div class="input-wrapper flex-1">
                                     <label for="state">Estado</label>
                                     <input type="text" id="state" name="state"
-                                    value="SP" disabled >
+                                    value="MA" disabled >
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="gardian">
+                            <legend>Informações do responsável</legend>
+
+                            <div class="input-wrapper">
+                                <label for="guardian">Nome do responsável</label>
+                                <input type="text" id="guardian" name="guardian" value="Raphael Belfort">
+                                <small>Principal responsável legal e contato de emergência  
+                                </small>
+                            </div>
+
+                               <div class="input-wrapper">
+                                <label for="phone">Telefone</label>
+                                <input type="text" id="phone" name="phone" value="(21) 9 6995-5197">
+                            </div>
+
+                             <div class="input-wrapper">
+                                <label for="mail">E-mail</label>
+                                <input type="email" id="mail" name="mail" required>
+                                <div class="error">
+                                    <img src="assets/icons/alert-circle.png" alt="Circulo de alerta">
+                                    <span>Insira um e-mail válido</span>
+                                </div>
+                            </div>
+
+                        </fieldset>
+
+                        <fieldset class="enroll-options">
+                            <legend>Opções de matrícula</legend>
+
+                            <div class="input-wrapper">
+                                <label> Selecione o turno do estudo</label>
+
+                                <div class="radio-wrapper">
+                                    <div class="radio-inner">
+                                        <div class="radio-image"></div>
+                                        <input type="radio" name="study-shift" value="morning" id="morning">
+                                        <img src="assets/icons/sun-cloud-02.png" alt="">
+                                        <label for="morning">Manhã</label>
+                                    </div>
+
+                                    <div class="radio-inner">
+                                        <div class="radio-image"></div>
+                                        <input type="radio" name="study-shift" value="evening" id="evening">
+                                        <img src="assets/icons/sun-02.png" alt="">
+                                        <label for="evening">Tarde</label>
+                                    </div>
                                 </div>
                             </div>
                         </fieldset>
