@@ -3,7 +3,6 @@
     grid-template-columns: 51.25% 48.75%;
 
     height: 100vh;
-    overflow: hidden;
 }
 
 main {
@@ -101,3 +100,50 @@ aside {
     font-weight: 400;
 }
 
+
+/* --- RESPONSIVIDADE --- */
+
+@media (max-width: 1024px) {
+    #app {
+        grid-template-columns: 1fr; /* Transforma em uma única coluna */
+        height: auto;
+        overflow-y: auto;
+    }
+
+    aside {
+        height: auto; /* Deixa o conteúdo definir a altura */
+        padding: 2rem 1rem;
+    }
+
+    main {
+        padding: 2rem 1rem;
+        overflow: visible; /* Permite scroll natural */
+    }
+
+    .aside-title h1 {
+        font-size: 2rem; /* Diminui o título para não quebrar */
+        text-align: center;
+    }
+    
+    .aside-container {
+        text-align: center;
+    }
+}
+
+/* Ajustes para celulares pequenos */
+@media (max-width: 480px) {
+    .actions-wrapper {
+        flex-direction: column; /* Botões um em cima do outro */
+        width: 100%;
+    }
+    
+    button {
+        text-align: center;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .radio-wrapper {
+        grid-template-columns: 1fr; /* Opções de rádio em lista */
+    }
+}

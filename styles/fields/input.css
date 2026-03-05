@@ -95,3 +95,14 @@ input {
     font-family: var(--font-family);
     font-size: 14px;
 }
+
+@media (max-width: 600px) {
+    .adress .flex {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .input-wrapper {
+        width: 100% !important;
+    }
+}
