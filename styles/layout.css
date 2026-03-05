@@ -138,6 +138,7 @@ aside {
     }
     
     button {
+        align-items: center;
         text-align: center;
         width: 100%;
         box-sizing: border-box;
