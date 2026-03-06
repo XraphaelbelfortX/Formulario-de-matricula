@@ -133,12 +133,11 @@ aside {
 /* Ajustes para celulares pequenos */
 @media (max-width: 480px) {
     .actions-wrapper {
-        flex-direction: column; /* Botões um em cima do outro */
+        flex-direction: row; /* Botões um em cima do outro */
         width: 100%;
     }
     
     button {
-        align-items: center;
         text-align: center;
         width: 100%;
         box-sizing: border-box;
